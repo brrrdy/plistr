@@ -1,0 +1,27 @@
+{ 
+    "extends": "@tsconfig/node10/tsconfig.json",
+    "compilerOptions": {
+      "target": "es5",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "outDir": "dist",
+      "sourceMap": true,
+      "removeComments": false,
+      "noImplicitAny": false,
+      "suppressImplicitAnyIndexErrors": true,
+      "baseUrl": ".",
+      "paths": {
+        "*": ["node_modules/*"]
+      }
+    },
+    "files": [
+        "src/app.ts",
+        "src/main.ts"
+    ],
+    "include": [ 
+        "src/**/*", 
+    ],
+    "exclude": [ 
+        "node_modules", 
+    ] 
+  }
