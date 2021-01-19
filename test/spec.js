@@ -1,3 +1,5 @@
+// Initialize the application and launch it
+
 const Application = require('spectron').Application;
 const chai = require('chai');
 const chaiAsPromised = require('chai-as-promised');

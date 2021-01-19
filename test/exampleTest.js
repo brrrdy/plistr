@@ -1,3 +1,5 @@
+// Tests to see if the test environment is working
+
 var assert = require('assert');
 
 describe('Array', function() {
